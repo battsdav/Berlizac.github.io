@@ -1,0 +1,97 @@
+img { 
+    margin: auto;
+    border-radius: 50%;
+    display: block; 
+    height: 200px; 
+    width: 200px;
+}
+
+body { 
+    background-color:lightgoldenrodyellow;   
+}
+h1 { 
+   font-size:50px; 
+   font-family:"satisfy"; 
+   color:#0000A0;
+   line-height:2.0; 
+   margin-top:0; 
+   padding-top:0;
+}
+
+h2 { 
+  text-align:center;
+  font-size:30px; 
+  font-family:"Walter Turncoat"; 
+  color:rgb(99,34,254); 
+  line-height:2.0; 
+  background-color: rgb(0,500,0);
+  background-color:rgba(0,500,0,0);
+} 
+
+p { 
+  font-size:25px;  
+  font-family:"Permanent Marker";
+  color:cadetblue;
+  text-align:center; 
+  line-height:2.0;
+} 
+
+ul { 
+  font-family:"Rock salt";
+  color:cornflowerblue; 
+  line-height:2.0;
+  list-style-type:square;
+}
+
+ol {
+    font-size:15px;
+    font-family:"Patrick Hand";
+    text-decoration:none;   
+    color:darkcyan; 
+    line-height:2.0;
+    list-style-type:upper-roman;
+}
+
+.list { 
+    margin: 0;
+    padding: 0;
+}
+
+.topics { 
+    margin-left: 15%; 
+    Margin-right: 15%; 
+    font-size: 20px;
+    list-style-type: circle;
+} 
+
+.header { 
+    border: solid 5px red;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 30px; 
+    padding-right: 30px;
+    margin-top: 0;
+}
+a:link { 
+    text-decoration: none;
+    color: red; 
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: green;
+}
+
+a:hover { 
+    text-decoration: none;
+    color: blue; 
+} 
+
+a:active { 
+    text-decoration: none;
+    color: orange;
+}
+
+li:hover { 
+    font-size: 20px;
+}
