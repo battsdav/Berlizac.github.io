@@ -50,6 +50,7 @@ ol {
     color:darkcyan; 
     line-height:2.0;
     list-style-type:upper-roman;
+    margin: auto;
 }
 
 .list { 
