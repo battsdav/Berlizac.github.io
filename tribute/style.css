@@ -1,0 +1,9 @@
+body { 
+     background-color: dimgrey;  
+     color:  black;
+}
+img {
+    display: block;
+    margin: auto; 
+    border: 2px solid white;
+} 
