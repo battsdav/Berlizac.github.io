@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+        <!-- jQuery  -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <!-- Custom Libraries -->
+        <script src="code.js" type="text/javascript" charset="utf-8"></script>        
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>GameShop</h1>
+                <button class="btn-primary btn col madden"><img src="madden18.jpg" alt="madden"></button>
+                <button class="btn-primary btn col nba"><img src="nba-2k18.jpg" alt="nba 2k18"></button>
+                <button class="btn-primary btn col nhl"><img src="nhl-18.jpg" alt="NHL 18"></button>
+                <button class="btn-primary btn col mbl"><img src="mlb-the-show17.jpg" alt="MLB THS 18"></button> 
+                <br>
+                <div class="row">
+            <!-- Madden-->
+              <label for="Quantity" class="col-6">Madden</label>
+            <input type="number" id="quantity" class="form-control col-4">
+            <!-- NBA -->
+            <label for="nbaQuantity" class="col-6">NBA</label>
+            <input type="number" id="nbaquantity" class="form-control col-4">
+            <!-- NHL -->
+            <label for="nhlQuantity" class="col-6">NHL</label>
+            <input type="number" id="nhlquantity" class="form-control col-4">
+            <!-- MLB -->
+            <label for="mlbQuantity" class="col-6">MLB</label>
+            <input type="number" id="mlbquantity" class="form-control col-4">
+            </div>
+            <br>
+            <button class="btn-primary btn col get ">Get Price</button>
+            <div class=" sub-total">Sub-Total:</div> 
+            <div class=" tax">Tax:</div>
+            <div class="grand-total">Grand Total:</div>
+        
+ 
+    </body>
+</html>

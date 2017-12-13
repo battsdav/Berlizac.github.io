@@ -1,0 +1,12 @@
+* {
+    background-color:darkslategray; 
+} 
+
+img {
+    display: block; 
+    margin: auto;
+}
+
+.row { 
+    margin: 5px;
+}
